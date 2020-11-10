@@ -1,3 +1,2 @@
 include ':Tools'
-include ':app'
 rootProject.name = "tools"
