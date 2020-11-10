@@ -147,7 +147,7 @@ object BitmapUtils {
      * @param degree 旋转角度
      * @return 旋转后的图片
      */
-    fun rotateBitmapByDegree(context: Context, bm: Bitmap, degree: Int): Bitmap? {
+    fun rotateBitmapByDegree(bm: Bitmap, degree: Int): Bitmap? {
         var returnBm: Bitmap? = null
         // 根据旋转角度，生成旋转矩阵
         try {

@@ -540,6 +540,7 @@ public class ImgUtils {
 
 
 
+
     /**
      * 给一张Bitmap添加水印文字。
      *
