@@ -265,4 +265,14 @@ public class STRING {
         return new ArrayList<>();
     }
 
+    public static boolean checkEmpty(String s){
+        return null == s || "".equals(s);
+    }
+    public static String toUpperCaseFirstOne(String s){
+        if(Character.isUpperCase(s.charAt(0)))
+            return s;
+        else
+            return Character.toUpperCase(s.charAt(0)) + s.substring(1);
+    }
+
 }
