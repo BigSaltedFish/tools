@@ -77,7 +77,7 @@ object FileUtils {
     private const val AUDIO_DIR = "SoundRecorder"
 
     /**
-     * 获取照片文件路径
+     * 获取文件保存路径
      */
     fun getSaveDir(context: Context?):String{
         return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P){
